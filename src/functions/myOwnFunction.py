@@ -7,3 +7,8 @@ def hello():
 # calling the func twice
 hello()
 hello()
+
+def helloName(name):
+    print("Hello " + name)
+
+helloName("Pioter!")
