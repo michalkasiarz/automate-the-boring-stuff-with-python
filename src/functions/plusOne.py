@@ -7,3 +7,6 @@ def plus_one(num):
 
 newNumber = plus_one(5)
 print(newNumber)
+
+print("Hello", end="    ")  # end= changes the default newline character
+print("Some text.")
