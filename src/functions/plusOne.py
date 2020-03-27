@@ -10,3 +10,4 @@ print(newNumber)
 
 print("Hello", end="    ")  # end= changes the default newline character
 print("Some text.")
+print("Odysek", "Parysek", "Koteu", "Pieseu", sep=" GO TEXAS! ")
