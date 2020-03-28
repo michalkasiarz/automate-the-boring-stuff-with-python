@@ -45,3 +45,9 @@ print(spam)     # ['Red', 'blue', 'Alice', 'Bob', 'Blue', 'al', 'bob']
 spam.sort()
 # Uppercase names comes first in ASCII-betical order!
 print(spam)     # ['Alice', 'Blue', 'Bob', 'Red', 'al', 'blue', 'bob']
+
+# Alphabetical order
+spam = ["z", "R", "s", "a", "H", "w", "J", "o", "c", "f"]
+print(spam)
+spam.sort(key=str.lower)       # it sorts as if everything is lowercase
+print(spam)
