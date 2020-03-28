@@ -2,13 +2,13 @@
 # Dictionaries are unordered
 
 myCat = {"size": "fat", "color": "gray", "disposition": "lazy"}
-for item in myCat.keys():
-    print(item)
+for key in myCat.keys():
+    print(key)
 
 print()
 
-for item in myCat.values():
-    print(item)
+for value in myCat.values():
+    print(value)
 
 print()
 
@@ -40,6 +40,21 @@ print(isInDict)     # True
 print()
 isInDict = 1111 in my_dict
 print(isInDict)     # False
+
+print()
+
+# items() method
+print("my_dict items: " + str(list(my_dict.items())))
+
+print()
+
+# keys() method
+print("my_dict keys: " + str(list(my_dict.keys())))
+
+print()
+
+# values() method
+print("my_dict values: " + str(list(my_dict.values())))
 
 print()
 
