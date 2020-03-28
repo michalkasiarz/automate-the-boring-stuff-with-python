@@ -13,4 +13,5 @@ for character in message.upper():
     count.setdefault(character, 0)
     count[character] = count[character] + 1
 
-pprint.pprint(count)
+result_String = pprint.pformat(count)   # casting the result to String
+print(result_String)
