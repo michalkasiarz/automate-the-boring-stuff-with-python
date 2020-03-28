@@ -18,6 +18,8 @@ print()
 
 myListWithStep2 = list(range(0, 10, 2))
 print(myListWithStep2)
+myListWithStep2 = myListWithStep2 + ["cat", "dog", "hot-dog"]
+print(myListWithStep2)
 
 print()
 
