@@ -28,7 +28,7 @@ print(spam.index("Cattie"))     # the index of Cattie is now 6
 spam.remove("Howdy")    # removes Howdy
 print(spam)
 
-# sort method
+# sort method - ASCII-betical order, Uppercase char comes before lowercase
 spam = [7, 4, 2, 64, 12, 5, 88, 5, 22, 1]
 print(spam)
 spam.sort()     # it returns sorted list
@@ -38,3 +38,10 @@ print(spam)
 print(spam)
 spam.sort(reverse=True)     # reverse sorting
 print(spam)
+
+# ASCII-betical order
+spam = ["Red", "blue", "Alice", "Bob", "Blue", "al", "bob"]
+print(spam)     # ['Red', 'blue', 'Alice', 'Bob', 'Blue', 'al', 'bob']
+spam.sort()
+# Uppercase names comes first in ASCII-betical order!
+print(spam)     # ['Alice', 'Blue', 'Bob', 'Red', 'al', 'blue', 'bob']
