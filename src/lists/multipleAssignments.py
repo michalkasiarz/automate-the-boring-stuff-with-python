@@ -15,3 +15,6 @@ print(cat_character, cat_color, cat_age, sep=" ")
 
 year, character, appearance = cat
 print(year, character, appearance, sep=" ")
+
+size, color, disposition = "skinny", "black", "quiet"
+print(size, color, disposition, sep=" ")
