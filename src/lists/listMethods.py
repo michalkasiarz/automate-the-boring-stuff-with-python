@@ -22,5 +22,19 @@ spam.insert(20, "Cattie")   # in case the index is too high,
 # it goes to the end of the list
 print(spam)
 
-print(spam.index("Cattie")) # the index of Cattie is now 6
+print(spam.index("Cattie"))     # the index of Cattie is now 6
 
+# remove method
+spam.remove("Howdy")    # removes Howdy
+print(spam)
+
+# sort method
+spam = [7, 4, 2, 64, 12, 5, 88, 5, 22, 1]
+print(spam)
+spam.sort()     # it returns sorted list
+print(spam)
+
+# reverse sorting
+print(spam)
+spam.sort(reverse=True)     # reverse sorting
+print(spam)
