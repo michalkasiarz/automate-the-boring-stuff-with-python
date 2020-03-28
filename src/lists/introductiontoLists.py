@@ -36,3 +36,5 @@ print(spam[2:4])    # rat, eagle
 print(spam)
 spam[1] = "NEW VALUE, GUYS!"
 print(spam)
+spam[1:3] = ['instead of NEW VALUE, GUYS!', 'instead of rat']
+print(spam)
