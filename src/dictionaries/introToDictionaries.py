@@ -32,4 +32,15 @@ print("Dict comparison: " + str(my_dict == your_dict))
 # gives True, because the order of the items doesn't matter for dictionaries,
 # they are unordered
 
+print()
+
+# if in dict
+isInDict = 5211 in my_dict
+print(isInDict)     # True
+print()
+isInDict = 1111 in my_dict
+print(isInDict)     # False
+
+print()
+
 
