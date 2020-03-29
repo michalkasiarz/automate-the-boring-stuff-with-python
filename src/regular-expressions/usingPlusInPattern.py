@@ -2,7 +2,7 @@ import re
 
 # using plus in a pattern
 
-batRegex = re.compile(r"Bat(wo)+man")  # * means at least 1 or more (wo) pattern
+batRegex = re.compile(r"Bat(wo)+man")  # + means at least 1 or more (wo) pattern
 mo = batRegex.search("The Adventures of Batman")
 try:
     print(mo.group())  # None
