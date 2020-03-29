@@ -9,4 +9,9 @@ print(mo.group())  # Batman
 mo = batRegex.search("The Adventures of Batwoman")
 print((mo.group()))  # Batwoman
 
+# another example with ? inside pattern
+
+dinRegex = re.compile(r"dinner\?")   # we are looking for dinner?
+mo = dinRegex.search("Do you fancy a dinner? Because he does not. So sad.")
+print(mo.group())
 
