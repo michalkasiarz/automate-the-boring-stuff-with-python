@@ -12,7 +12,7 @@ print()
 
 # using DOTALL
 
-dotStarRegex = re.compile(r".*", re.DOTALL)    # matches everything except the newline
+dotStarRegex = re.compile(r".*", re.DOTALL)    # matches everything, including newlines!
 mo = dotStarRegex.search(prime)
 print(mo.group())    # Serve the public trust.
 # Protect the innocent.
