@@ -1,9 +1,9 @@
 import logging
 
-logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(filename="myProgramLog.txt", level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # turning on/off logging module message
-logging.disable(logging.CRITICAL)
+# logging.disable(logging.CRITICAL)
 
 # Log levels:
 # logging.DEBUG (the lowest)
