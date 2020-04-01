@@ -21,6 +21,11 @@ except OSError:
 
 # os.unlink will delete a single file
 
+os.chdir(r"C:\Users\micha\Documents\Training")
+
+print(os.getcwd())
+os.unlink("Hello.txt")
+
 # shutil.rmtree() deletes a folder and its entire contents
 
 shutil.rmtree(r"C:\Users\micha\Documents\Training\Folder1\folder_with_content")
