@@ -1,3 +1,4 @@
+# Sanity check - assertion error example
 
 market_2nd = {"ns": "green", "ew": "red"}
 
