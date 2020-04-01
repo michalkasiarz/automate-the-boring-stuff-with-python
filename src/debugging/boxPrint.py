@@ -1,3 +1,4 @@
+from datetime import datetime
 import traceback
 
 
@@ -11,6 +12,7 @@ def boxPrint(symbol, width, height):
             raise Exception("Width and height must be greater or equal to 2")
     except:
         errorFile = open("error_log.txt", "a")
+        errorFile.write("\n\n" + str(datetime.fromtimestamp(datetime.timestamp(datetime.now()))) + "\n\n")
         errorFile.write(traceback.format_exc())
         errorFile.close()
         print("The traceback info was written into error_log.txt")

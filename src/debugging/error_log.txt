@@ -1,4 +1,16 @@
+
+
+2020-04-01 15:52:08.193823
+
 Traceback (most recent call last):
-  File "C:/Users/micha/Documents/PythonProjects/automate-the-boring-stuff-with-python/src/debugging/boxPrint.py", line 11, in boxPrint
+  File "C:/Users/micha/Documents/PythonProjects/automate-the-boring-stuff-with-python/src/debugging/boxPrint.py", line 12, in boxPrint
+    raise Exception("Width and height must be greater or equal to 2")
+Exception: Width and height must be greater or equal to 2
+
+
+2020-04-01 15:52:28.344597
+
+Traceback (most recent call last):
+  File "C:/Users/micha/Documents/PythonProjects/automate-the-boring-stuff-with-python/src/debugging/boxPrint.py", line 12, in boxPrint
     raise Exception("Width and height must be greater or equal to 2")
 Exception: Width and height must be greater or equal to 2
