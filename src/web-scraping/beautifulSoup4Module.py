@@ -13,5 +13,5 @@ soup = bs4.BeautifulSoup(res.text, "html.parser")
 elems = soup.select("#edition-toggle > div > div > div.full")
 
 # printing the date
-print("Present date of The Washington Post date is " + elems[0].text + ".")
+print("Present date of The Washington Post is " + elems[0].text + ".")
 # Present date of The Washington Post is April 2, 2020.
