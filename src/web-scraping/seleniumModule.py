@@ -17,3 +17,24 @@ elem.click()
 # looking for p elements
 elems = browser.find_elements_by_css_selector("p")
 print(len(elems))
+
+# navigating to Google.com
+browser.get("https://www.google.com")
+
+# locating google searchbar
+googleSearchbar = browser.find_element_by_css_selector("#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input")
+
+# filling text into a searchbar
+googleSearchbar.send_keys("Automate the Boring Stuff with Python")
+
+# submitting the search
+googleSearchbar.submit()
+
+# navigating back
+browser.back()
+
+# navigating forward
+browser.forward()
+
+# closing the browser
+browser.close()
