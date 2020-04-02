@@ -14,4 +14,4 @@ elems = soup.select("#edition-toggle > div > div > div.full")
 
 # printing the date
 print("Present date of The Washington Post date is " + elems[0].text + ".")
-# Present date of The Washington Post date is April 2, 2020.
+# Present date of The Washington Post is April 2, 2020.
