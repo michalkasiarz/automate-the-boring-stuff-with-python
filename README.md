@@ -1,6 +1,6 @@
 # automate-the-boring-stuff-with-python
 
-Here are all of the exercises I've done as going through :link: [Automate the boring stuff with Python Programming](https://www.udemy.com/course/automate/).  
+Here are all of the exercises I've done as going through :link: [Automate the boring stuff with Python Programming](https://www.udemy.com/course/automate/) from :link: [Al Sweigart](https://github.com/asweigart).  
  
 :wrench: Language: Python 3.7
 
